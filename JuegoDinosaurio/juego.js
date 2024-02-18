@@ -127,8 +127,8 @@ function logicaSuelo() {
 }
 
 function saltar() {
+    if (trex.saltando == false) trex.vy = trex.salto;
     trex.saltando = true;
-    trex.vy = trex.salto;
 }
 
 function colision() {
